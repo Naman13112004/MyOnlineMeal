@@ -1,0 +1,263 @@
+/* CSS Reset */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 79px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+.item{
+    list-style: none;
+    margin: 10px;
+    padding-left: 64px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.item a label{
+    color: chartreuse;
+    cursor: pointer;
+}
+
+.item a label:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+#logo img{
+    width: 78px;
+    height: 78px;
+    border-radius: 53px;
+}
+
+/* Home Section */
+#Home{
+    width: 100%;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+}
+
+#Home::before{
+    content: "";
+    background: url('../photo2.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 514px;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+#Home h2{
+    font-size: 3rem;
+    color: midnightblue;
+}
+
+#Home p{
+    color: #650707;
+    text-align: center;
+    font-size: 27px;
+    margin: 3px;
+}
+
+#Home button{
+    border-radius: 10px;
+    margin: 18px;
+    padding: 4px 9px;
+    font-family: cursive;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+#first{
+    padding-left: 210px;
+    padding-right: 210px;
+}
+
+#second{
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+#third{
+    padding-left: 210px;
+    padding-right: 210px;
+}
+
+/* Services Section */
+#Services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 680px;
+    font-family: cursive;
+    background-color: #9be0c9;
+}
+
+#Services h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 2rem;
+    color: green;
+}
+
+#Services h4{
+    font-size: 2rem;
+    color: brown;
+    margin-top: 15px;
+}
+
+#boxes{
+    display: flex;
+}
+
+.box{
+    border: 3px solid black;
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5e1dc;
+}
+
+.box p{
+    text-align: center;
+    margin: 0px 26px;
+    margin-top: -25px;
+    padding: 24px;
+    color: darkgreen;
+    font-size: 20px;
+}
+
+#box-1 img{
+    height: 150px;
+    width: 150px;
+    margin-top: 22px;
+    border-radius: 37px;
+}
+
+#box-2 img{
+    height: 150px;
+    width: 150px;
+    margin-top: 22px;
+    border-radius: 37px;
+}
+
+
+#box-3 img{
+    height: 150px;
+    width: 150px;
+    margin-top: 22px;
+    border-radius: 37px;
+}
+
+/* Clients Section */
+#Clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+}
+
+#Clients::before{
+    content: "";
+    background: url('../photo4.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 352px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#Clients h2{
+    font-size: 2.5rem;
+    color: greenyellow;
+    font-family: cursive;
+}
+
+#client-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#client-img img{
+    height: 210px;
+    width: 267px;
+    margin: 26px;
+    margin-top: -6px;
+}
+
+/* Contact Section */
+#Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Contact::before{
+    content: "";
+    background: url('../photo3.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 567px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#Contact h2{
+    font-size: 2rem;
+    font-family: cursive;
+    color: maroon;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-size: 22px;
+    font-family: cursive;
+}
+
+form input{
+    border-radius: 10px;
+    margin: 13px 0px;
+    padding: 5px;
+    font-family: cursive;
+}
+
+/* Footer Section */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
