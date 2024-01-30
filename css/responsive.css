@@ -1,38 +1,15 @@
-@media screen and (max-width: 1276px){
-    #navbar{
-        flex-direction: column;
-        align-items: center;
-    }
+@media screen and (max-width: 1100px) 
+{
+    /* Navigation Bar */
 
-    #navbar::before{
-        height: 162px;
-    }
+    
 
-    #Home{
-        height: 338px;
-    }
+    /* Home Section */
 
-    #Home::before{
-        height: 500px;
-    }
+    /* Services Section */
 
-    #Home h2{
-        font-size: 2rem;
-    }
+    /* Clients Section */
 
-    #Home p{
-        font-size: 20px;
-    }
+    /* Contact Section */
 
-    #boxes{
-        flex-direction: column;
-    }
-
-    #Services{
-        height: 121vh;
-    }
-
-    #Clients::before{
-        height: 583px;
-    }
 }
